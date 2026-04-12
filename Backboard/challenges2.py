@@ -9,7 +9,7 @@ async def main():
 
     # create an assistant
     assistant = await client.create_assistant(
-        name="My First Assistant",
+        name="My Challenge Assistant",
         system_prompt="You are a helpful assistant that responds concisely."
     )
 
